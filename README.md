@@ -16,6 +16,11 @@ Tools for processing images en masse
 * Very simple image database. I just want to start by being able to collect all the images I have available on a given disk drive.
 
 
+# Plans
+
+* 5/31/15
+** Write duplicate finder 
+
 # Change log
 
 ## 5/31/15 - Wrote python mac inspector

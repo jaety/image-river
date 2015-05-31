@@ -1,6 +1,12 @@
 *.class
 *.log
 
+#other
+.DS_Store
+
+# py specific
+*.pyc
+
 # sbt specific
 .cache
 .history
