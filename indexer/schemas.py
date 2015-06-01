@@ -14,6 +14,10 @@ def sqlite_execute(fn, *cmds):
         for cmd in cmds:
             c.execute(cmd)
 
+def sqlite_executemany(fn, cmd, values):
+    with sqlite_cursor(fn) as c:
+        c.executemany(cmd, values)
+
 
 def create(fn):
     sqlite_execute(fn,
